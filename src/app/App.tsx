@@ -46,7 +46,10 @@ export default function App() {
   const [selectedIsland, setSelectedIsland] = useState("Santiago");
 
   function navigate(target: string, data?: unknown) {
-    if (target === "islands") setScreen("islands");
+    if (target === "island-detail" && typeof data === "string") {
+      setSelectedIsland(data);
+      setScreen("island-detail");
+    } else if (target === "islands") setScreen("islands");
     else if (target === "gastronomy") setScreen("gastronomy");
     else if (target === "tourism") setScreen("tourism");
     else if (target === "ai") setScreen("ai");

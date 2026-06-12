@@ -66,8 +66,8 @@ export function BottomNav({ active, onNavigate }: Props) {
       className="flex items-center justify-around px-2 pt-2 pb-3"
       style={{
         background: "#ffffff",
-        borderTop: "1px solid rgba(0,102,204,0.08)",
-        boxShadow: "0 -4px 20px rgba(0,102,204,0.08)",
+        borderTop: "1px solid rgba(0,87,184,0.12)",
+        boxShadow: "0 -10px 30px rgba(0,87,184,0.12)",
       }}
     >
       {tabs.map((tab) => {
@@ -76,10 +76,10 @@ export function BottomNav({ active, onNavigate }: Props) {
           <button
             key={tab.id}
             onClick={() => onNavigate(tab.id)}
-            className="flex flex-col items-center gap-0.5 py-1 px-3 rounded-xl transition-all"
+            className="flex flex-col items-center gap-0.5 py-2 px-3 rounded-2xl transition-all"
             style={{
-              color: isActive ? "#0066CC" : "#8aaccc",
-              background: isActive ? "rgba(0,102,204,0.07)" : "transparent",
+              color: isActive ? "#0057B8" : "#8aaccc",
+              background: isActive ? "rgba(0,87,184,0.08)" : "transparent",
             }}
           >
             {tab.icon}

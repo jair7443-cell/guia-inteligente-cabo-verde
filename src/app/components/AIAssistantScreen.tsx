@@ -8,24 +8,24 @@ interface Message {
 }
 
 const suggestions = [
-  "Qual é a melhor ilha para famílias?",
-  "Quando é a melhor época para visitar?",
-  "Quais documentos preciso para entrar?",
-  "Qual a moeda de Cabo Verde?",
-  "Como chegar de Lisboa a Cabo Verde?",
+  "O que visitar em Santiago?",
+  "Melhor praia da ilha do Sal?",
+  "Onde comer cachupa?",
+  "Roteiro de 7 dias em Cabo Verde?",
+  "O que fazer em São Vicente?",
 ];
 
 const aiResponses: Record<string, string> = {
-  "Qual é a melhor ilha para famílias?":
-    "Para famílias, recomendo a **Ilha do Sal** ou **Boa Vista**! Ambas têm praias seguras de águas calmas, hotéis all-inclusive de qualidade, e actividades para todas as idades como windsurf, snorkeling e passeios de jeep. A Sal tem mais infraestrutura turística, enquanto Boa Vista é mais tranquila e selvagem. 🏖️",
-  "Quando é a melhor época para visitar?":
-    "A melhor época é de **Novembro a Junho**, quando o tempo é mais seco e fresco (24-28°C). Julho a Outubro é a época das chuvas com temperaturas mais altas. Para surf e windsurf, Dezembro a Abril é perfeito! ☀️ Nota: Cabo Verde tem sol quase todo o ano, então qualquer mês é bom!",
-  "Quais documentos preciso para entrar?":
-    "Os **portugueses e cidadãos da UE** entram com bilhete de identidade. Para outros países, é necessário passaporte válido. Cidadãos de alguns países precisam de visto — verifique no site da embaixada. O PAIGC permite entrada e residência temporária de até 90 dias para muitos países. ✈️",
-  "Qual a moeda de Cabo Verde?":
-    "A moeda oficial é o **Escudo Cabo-verdiano (CVE)**. 1 Euro = aproximadamente 110 CVE. Cartões de crédito são aceites na maioria dos hotéis e restaurantes. Recomendo ter algum dinheiro em cash para mercados locais e taxis. Os ATMs estão disponíveis nas principais cidades. 💶",
-  "Como chegar de Lisboa a Cabo Verde?":
-    "De Lisboa há **voos directos diários** para a Ilha do Sal (Aeroporto Internacional Amílcar Cabral) e para Santiago (Praia). A duração é de cerca de **3h30**. As companhias TAP, TACV e outras operam esta rota. De outros países, há voos via Lisboa, Las Palmas ou outras cidades europeias. ✈️",
+  "O que visitar em Santiago?":
+    "Em Santiago, não perca a Cidade Velha (Património Mundial da UNESCO), o mercado da Sucupira, a Praia de Tarrafal e o Parque Natural da Serra Malagueta. Para um toque cultural, visite o Museu Etnográfico e prove a comida local em restaurantes familiares.",
+  "Melhor praia da ilha do Sal?":
+    "A Praia de Santa Maria é a mais famosa, com areia branca e águas cristalinas, ótimas opções de esportes aquáticos e uma vida noturna animada. Se procura algo mais tranquilo, visite a praia do Buracona ou Ponta Preta.",
+  "Onde comer cachupa?":
+    "A melhor cachupa encontra-se em restaurantes tradicionais de Santiago, como o Quintal da Música e o Restaurante Crioulo. Procure também tascas locais na Cidade Velha e em Assomada para uma versão caseira e autêntica.",
+  "Roteiro de 7 dias em Cabo Verde?":
+    "Sugestão: 3 dias em Sal para praia e esportes aquáticos, 2 dias em Santiago para história e cultura, 1 dia em Fogo para o vulcão e 1 dia em São Vicente para música e vida noturna. Combine transfers internos e reserve hotéis com antecedência. Assim terá uma experiência equilibrada entre natureza, cultura e praia.",
+  "O que fazer em São Vicente?":
+    "Em São Vicente, explore Mindelo, a Baía das Gatas, o Monte Verde e os cafés musicais. Aproveite o mercado municipal, os bares de morna e os passeios à beira-mar para sentir a energia cultural da ilha.",
 };
 
 function getTime() {

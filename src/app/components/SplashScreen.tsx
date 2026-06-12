@@ -57,12 +57,10 @@ export function SplashScreen({ onEnter }: Props) {
             className="text-white text-center mb-3"
             style={{ fontFamily: "'Playfair Display', serif", fontSize: "26px", fontWeight: 800, lineHeight: 1.2 }}
           >
-            Guia Inteligente
-            <br />
-            <span style={{ color: "#FFD700" }}>de Cabo Verde</span>
+            Descubra Cabo Verde com Inteligência
           </h1>
           <p className="text-white/70 text-center mt-2" style={{ fontSize: "15px", fontFamily: "Nunito, sans-serif" }}>
-            Descubra a beleza de Cabo Verde
+            Explore as ilhas, a cultura, a gastronomia e os tesouros escondidos de Cabo Verde.
           </p>
         </motion.div>
 
@@ -88,7 +86,7 @@ export function SplashScreen({ onEnter }: Props) {
       >
         <div className="text-center mb-6">
           <p className="text-white/50 text-xs" style={{ fontFamily: "Nunito, sans-serif" }}>
-            10 Ilhas • Infinitas Descobertas
+            10 Ilhas • Um Destino Inesquecível
           </p>
         </div>
         <button
@@ -103,7 +101,7 @@ export function SplashScreen({ onEnter }: Props) {
             boxShadow: "0 8px 32px rgba(255, 215, 0, 0.4)",
           }}
         >
-          Explorar Agora →
+          Começar a Explorar
         </button>
         <p className="text-white/40 text-center mt-4 text-xs" style={{ fontFamily: "Nunito, sans-serif" }}>
           Free · No registration required
